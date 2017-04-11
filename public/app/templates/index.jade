@@ -1,0 +1,10 @@
+doctype html
+html(lang="eng")
+    head
+        title template
+        link(rel="stylesheet", href="css/main.min.css")
+    body(ng-app='app')
+        main(ng-controller='MainController as main')
+            include components/header  
+            p {{main.test}}
+            include components/footer

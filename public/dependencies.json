@@ -1,0 +1,13 @@
+{
+  "js":[
+    "./app/js/libs/angular.min.js",
+    "./app/js/app.js",
+    "./app/js/controllers/mainController.js"
+  ],
+  "css":[
+
+  ],
+  "fonts":[
+
+  ]
+}
