@@ -6,5 +6,6 @@ html(lang="eng")
     body(ng-app='app')
         main(ng-controller='MainController as main')
             include components/header  
+            a(href='/auth/twitter') Sign in with Twitter
             p {{main.test}}
             include components/footer
